@@ -1,4 +1,4 @@
-![Project Screenshot](firstproject.png)
+![Project Screenshot](firstproject.jpg)
 # 📋 Full-Stack Task Manager (MERN Architecture)
 
 A robust, full-stack Task Management application built to demonstrate the integration between a modern Frontend and a Node.js REST API.
