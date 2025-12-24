@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit's Task Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+    <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <h1 class="text-2xl font-bold mb-4 text-gray-800">My Tasks</h1>
+        
+        <div class="flex mb-4">
+            <input type="text" id="taskInput" placeholder="Add a new task..." 
+                class="flex-1 border p-2 rounded-l-lg focus:outline-none">
+            <button onclick="addTask()" 
+                class="bg-blue-500 text-white px-4 py-2 rounded-r-lg hover:bg-blue-600">Add</button>
+        </div>
+
+        <ul id="taskList" class="space-y-2">
+            </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
