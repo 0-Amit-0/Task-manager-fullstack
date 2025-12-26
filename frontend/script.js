@@ -1,5 +1,4 @@
-const API_URL = "https://your-render-url-here.onrender.com/api/tasks";
-const API_URL = "http://localhost:5000/api/tasks";
+const API_URL = "https://amit-task-manager-backend.onrender.com/api/tasks";
 
 // Function to fetch tasks from the backend and show them
 async function fetchTasks() {
